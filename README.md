@@ -147,20 +147,12 @@ python generate_adversarial.py --type semantic --input data/processed
 
 ```
 semeval-2024-brainteaser/
-├── data/
-│   ├── raw/                    # Original puzzle data
-│   ├── processed/              # Preprocessed data
-│   ├── SP-train.npy           # Sentence puzzle training data
-│   └── WP-train.npy           # Word puzzle training data
-├── src/
-│   ├── models/                # Model implementations
-│   ├── evaluation/            # Evaluation scripts
-│   ├── preprocessing/         # Data processing utilities
-│   └── utils/                 # Helper functions
-├── experiments/               # Experiment configurations
-├── results/                  # Output results and logs
-├── requirements.txt          # Python dependencies
-└── README.md                # This file
+├── Data/          
+├── Notebooks/
+│   ├── fine-tuning-albert-and-destillbert             
+│   ├── fine-tuning-roberta-and-deberta           
+│   └── zero-shot-roberta-large        
+└── README.md            
 ```
 
 ## 🔬 Models Evaluated
